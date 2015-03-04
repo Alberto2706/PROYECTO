@@ -2,7 +2,7 @@
 
 angular.module('proyectoApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.tareas = ['Item1', 'Item2', 'Item3'];
+    $scope.tareas = [];
 
     $scope.addTarea = function(){
       $scope.tareas.push($scope.tarea);
